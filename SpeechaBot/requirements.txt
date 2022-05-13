@@ -1,0 +1,11 @@
+certifi
+charset-normalizer
+colorama
+ffmpeg
+idna
+pretty-errors
+pydub
+pyTelegramBotAPI
+requests
+SpeechRecognition
+urllib3
