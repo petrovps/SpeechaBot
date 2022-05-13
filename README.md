@@ -12,5 +12,13 @@ Skills: python
   -   Add OCR for image recognition 
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/petrovps)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/SpeechaBot)  
 
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/SpeechaBot)  
+
+### Installation
+1. Get Telegram API token: `https://core.telegram.org/bots`
+2. Set telegram API token to  [config.py](/SpeechaBot/config.py) file
+3. install dependencies: `pip install -r requirements.txt`
+4. Run `python main.py`
+
+*TO DO: Add instructions for deploying to VPS as a service*
