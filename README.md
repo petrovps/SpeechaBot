@@ -22,3 +22,4 @@ Skills: python
 4. Run `python main.py`
 
 *TO DO: Add instructions for deploying to VPS as a service*
+![Profile views](https://gpvc.arturio.dev/petrovps)  
