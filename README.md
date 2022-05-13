@@ -13,7 +13,7 @@ Skills: python
 
 
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/SpeechaBot)  
+**My bot:** [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='telegram' height='40'>](https://t.me/SpeechaBot)  
 
 ### Installation
 1. Get Telegram API token: `https://core.telegram.org/bots`
