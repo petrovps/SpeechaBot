@@ -127,10 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-SpeechaBot/.idea/.name
-SpeechaBot/.idea/inspectionProfiles/profiles_settings.xml
-SpeechaBot/.idea/misc.xml
-SpeechaBot/.idea/modules.xml
-SpeechaBot/.idea/SpeechaBot.iml
-SpeechaBot/.idea/vcs.xml
+SpeechaBot/.idea/*
 SpeechaBot/config.py
