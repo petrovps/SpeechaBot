@@ -1,7 +1,7 @@
 # SpeechaBot
 ### Hi there 👋, are You also annoyed by voice messages in telegram chats?
 #### This is a simple telegram bot for translating voice messages and video notes into text.
-![This is a simple telegram bot for translating voice messages and video notes into text.](https://github.com/petrovps/SpeechaBot/blob/main/SpeechaBotLogo.jpg)
+![This is a simple telegram bot for translating voice messages and video notes into text.](https://github.com/petrovps/SpeechaBot/blob/main/SpeechaBotDemo.gif)
 
 I have a family chat where members often like to send voice messages. Often, I do not have the opportunity to listen to them, especially during work. I decided to make a bot to translate voice to text. 
 
