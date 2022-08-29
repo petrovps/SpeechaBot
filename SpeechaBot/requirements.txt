@@ -3,6 +3,7 @@ charset-normalizer
 colorama
 ffmpeg
 idna
+moviepy
 pretty-errors
 pydub
 pyTelegramBotAPI
