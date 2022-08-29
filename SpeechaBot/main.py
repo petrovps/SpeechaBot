@@ -70,18 +70,20 @@ def video_converter(file_name, file):
     return path_wav
 
 def empty_folders():
-    for filename in os.listdir(audio_folder):
-        file_path = os.path.join(audio_folder, filename)
-        try:
-            os.remove(file_path)
-        except Exception as e:
-            print(f"Failed to delete {file_path}. Reason: {e}")
-    for filename in os.listdir(video_folder):
-        file_path = os.path.join(video_folder, filename)
-        try:
-            os.remove(file_path)
-        except Exception as e:
-            print(f"Failed to delete {file_path}. Reason: {e}")
+    folders_to_clear = []
+    if os.path.isdir(video_folder):
+        folders_to_clear.append(video_folder)
+    if os.path.isdir(audio_folder):
+        folders_to_clear.append(audio_folder)
+
+    for folder in folders_to_clear:
+        for filename in os.listdir(folder):
+            file_path = os.path.join(folder, filename)
+            try:
+                os.remove(file_path)
+            except Exception as e:
+                print(f"Failed to delete {file_path}. Reason: {e}")
+    
 
 def text_recognition(audio):
     with sr.AudioFile(audio) as source:
